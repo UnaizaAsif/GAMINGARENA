@@ -22,8 +22,7 @@ int main()
         case 1:
             system("Quiz.exe");
             break;
-        
-        case 2:
+         case 2:
             system("TICTACTOE.exe");
             break;
         case 3:
