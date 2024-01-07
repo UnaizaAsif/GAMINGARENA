@@ -11,10 +11,9 @@ int main()
 	printf("\t\t\t WELCOME TO GAMING ARENA \n\n");
     printf("\nSelect a game to play:\n");
     printf("1. QUIZ GAME\n");
-    printf("2. RIDDLE GAME\n");
-    printf("3. TICTACTOE \n");
-    printf("4. ROCK PAPER SCISSOR \n");
-    printf("5. GUESSING THE NUMBER GAME \n");
+    printf("2. TICTACTOE \n");
+    printf("3. ROCK PAPER SCISSOR \n");
+    printf("4. GUESSING THE NUMBER GAME \n");
     printf("\nEnter your choice: ");
     scanf("%d", &choice);
 
@@ -23,16 +22,14 @@ int main()
         case 1:
             system("Quiz.exe");
             break;
+        
         case 2:
-            system("RIDDLEGAME.exe");
-            break;
-        case 3:
             system("TICTACTOE.exe");
             break;
-        case 4:
+        case 3:
             system("ROCKPAPERSCISSORS.exe");
             break;
-        case 5:
+        case 4:
            system("guessinggame.exe");
            break;
         default:
