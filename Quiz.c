@@ -8,7 +8,7 @@ int main(){
 }
 void quiz(char ch){
 	int score=0;
-	char c;
+	char co;
 	do{
 	printf("Welcome to quiz game! \n");
 	printf("Lets start! \n");
@@ -127,7 +127,7 @@ void quiz(char ch){
 
 
     printf("Do you want to continue (Y/N): \n");
-    scanf(" %c",&c);
+    scanf(" %c",&co);
 	
-} while(c=='y' || c=='Y');
+} while(co=='y' || co=='Y');
 }
